@@ -1,0 +1,34 @@
+{
+  "name": "lesson18-webpack-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "prod": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Errora/lesson18-Webpack-Rollup.git"
+  },
+  "keywords": [
+    "webpack",
+    "rollup"
+  ],
+  "author": "Alla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Errora/lesson18-Webpack-Rollup/issues"
+  },
+  "homepage": "https://github.com/Errora/lesson18-Webpack-Rollup#readme",
+  "dependencies": {
+    "rollup": "^2.68.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.1",
+    "rollup-plugin-img": "^1.1.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-styles": "^4.0.0"
+  }
+}
